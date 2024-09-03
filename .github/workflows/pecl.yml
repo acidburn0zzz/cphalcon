@@ -81,7 +81,7 @@ jobs:
           php-config --version
           phpize -v
       - name: Download phalcon pecl package
-        uses: actions/download-artifact@v1
+        uses: actions/download-artifact@v4.1.7
         with:
           name: phalcon-pecl
       - name: Install package
